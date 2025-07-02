@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+td{
+    padding: 10px;
+}
+
+th {
+    color: black;
+    text-align: center;
+    border: none;
+}
+
+.add{
+    display: flex;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+.add a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.add a:hover{
+    text-decoration: underline;
+}
+.btnEditRemove{
+    text-decoration: none;
+}
+.btnEditRemove:visited{
+  
+  text-decoration: none;
+}
